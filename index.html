@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="styles/icons.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,10 +24,10 @@
 					</div>
 					<div class="menu__cover"></div>
 					<ul class="menu__list">
-						<li><a href="" class="menu__link">page 1</a></li>
-						<li><a href="" class="menu__link">page 2</a></li>
-						<li><a href="" class="menu__link"><span class="icon-github"></span>github</a></li>
-						<li><a href="" class="menu__link"><span class="icon-gmail"></span>gmail</a></li>
+						<li><a data-page="page1" href="#" class="menu__link">page 1</a></li>
+						<li><a data-page="page2" href="#" class="menu__link">page 2</a></li>
+						<li><a href="https://github.com/MaselkoVol" class="menu__link"><span class="icon-github"></span>github</a></li>
+						<li><a href="mailto:kartoshka8800@gmail.com" class="menu__link"><span class="icon-gmail"></span>gmail</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -35,13 +35,13 @@
 	</header>
 	<section class="section main-section">
 		<div class="container">
-			<div class="main-section__container">
+			<div class="section__container main-section__container">
 				<div class="main-section__description">
-					<h1 class="main-section__title">Front-EndDeveloper</h1>
+					<h1 class="main-section__title">Front-End <p>Developer</p>
+					</h1>
 					<p class="main-section__text">Hi, I am Volodymyr Maselko, a begginer front-end web developer</p>
 				</div>
 				<div class="icons-set">
-					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 					<h2 class="icons-set__title">What I know</h2>
 					<div class="icons-set__icons">
 						<span class="icon-html5"></span>
@@ -53,6 +53,40 @@
 						</span>
 						<span class="icon-sass"></span>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="page1" class="project-section section">
+		<div class="container">
+			<div class="section__container project-section__container">
+				<h1 class="project-section__title">Realvise layout</h1>
+				<p class="project-section__text">Responsive webpage layout, where I combine HTML, CSS, and JavaScript</p>
+				<div class="project-section__page page">
+					<a href="https://maselkovol.github.io/relviseLayout/" class="page__link">
+						<div class="page__container">
+							<div class="page__text">Open page</div>
+							<img src="images/realviseLayout.jpg" alt="realviseLayout" class="page__img">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="page2" class="project-section section">
+		<div class="container">
+			<div class="section__container project-section__container project-section__container_operationTreeGenerator">
+				<h1 class="project-section__title">Operation tree generator</h1>
+				<p class="project-section__text">A webpage, where you can write a math expression, like in calculator, and program shows you the operation tree of this expression</p>
+				<div class="project-section__page page">
+					<a href="https://maselkovol.github.io/operationTreeGenerator/" class="page__link">
+						<div class="page__container">
+							<div class="page__text">Open page</div>
+							<img src="images/operationTreeGenerator.jpg" alt="operationTreeGeneratior" class="page__img">
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
